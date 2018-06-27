@@ -1,3 +1,15 @@
+Readme 
+
+Tip Calculator 
+
+# Project 1 - *Tips Calculator*
+
+**Tips Calculator**
+
+Submitted by: **Katie Kwan**
+
+Time spent: **4** 
+
 ## User Stories
 
 The following **required** functionality is complete:
