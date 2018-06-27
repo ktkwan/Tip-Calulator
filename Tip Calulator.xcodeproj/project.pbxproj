@@ -15,6 +15,7 @@
 		9EE5C7A820E2D7A5003F9B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5C7A720E2D7A5003F9B14 /* main.m */; };
 		9EE5C7B220E2D7A5003F9B14 /* Tip_CalulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5C7B120E2D7A5003F9B14 /* Tip_CalulatorTests.m */; };
 		9EE5C7BD20E2D7A5003F9B14 /* Tip_CalulatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5C7BC20E2D7A5003F9B14 /* Tip_CalulatorUITests.m */; };
+		9EE5C7CC20E305E4003F9B14 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE5C7CB20E305E4003F9B14 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9EE5C7B820E2D7A5003F9B14 /* Tip CalulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE5C7BC20E2D7A5003F9B14 /* Tip_CalulatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalulatorUITests.m; sourceTree = "<group>"; };
 		9EE5C7BE20E2D7A5003F9B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE5C7CA20E305E4003F9B14 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9EE5C7CB20E305E4003F9B14 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				9EE5C79B20E2D7A3003F9B14 /* ViewController.h */,
 				9EE5C79C20E2D7A3003F9B14 /* ViewController.m */,
 				9EE5C79E20E2D7A3003F9B14 /* Main.storyboard */,
+				9EE5C7CA20E305E4003F9B14 /* SettingsViewController.h */,
+				9EE5C7CB20E305E4003F9B14 /* SettingsViewController.m */,
 				9EE5C7A120E2D7A5003F9B14 /* Assets.xcassets */,
 				9EE5C7A320E2D7A5003F9B14 /* LaunchScreen.storyboard */,
 				9EE5C7A620E2D7A5003F9B14 /* Info.plist */,
@@ -265,6 +270,7 @@
 				9EE5C79D20E2D7A3003F9B14 /* ViewController.m in Sources */,
 				9EE5C7A820E2D7A5003F9B14 /* main.m in Sources */,
 				9EE5C79A20E2D7A3003F9B14 /* AppDelegate.m in Sources */,
+				9EE5C7CC20E305E4003F9B14 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,12 +440,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4732YMW59C;
 				INFOPLIST_FILE = "Tip Calulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Tip-Calulator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.katie281.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,12 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4732YMW59C;
 				INFOPLIST_FILE = "Tip Calulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Tip-Calulator";
+				PRODUCT_BUNDLE_IDENTIFIER = com.katie281.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
